@@ -42,4 +42,4 @@ workflows:
       - save_hello_world_output
       - print_output_file:
           requires:
-            - flow
+            - save_hello_world_output
